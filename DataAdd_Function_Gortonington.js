@@ -49,7 +49,7 @@ function dateAdd(date, interval, units) {
 
 var date = new Date(),
     interval = 'Q',
-    units = -1;
+    units = 3;
 var newDate = dateAdd(date,interval,units);
 Write('date: ' + date + '<br>');
 Write('interval: ' + interval + '<br>');
